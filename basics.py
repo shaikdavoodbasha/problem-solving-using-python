@@ -26,3 +26,17 @@
 # res.extend(b[j:])
 
 # print(res)
+
+# a=[1,2,0,0,4,5,0,0,4,5]
+# b=[]
+# c=[]
+# for i in a:
+#     if i == 0:
+#         c.append(i)
+#     else:
+#         b.append(i)
+# print(b)
+# print(c)
+# print(b+c)
+# b.extend(c)
+# print(b)
