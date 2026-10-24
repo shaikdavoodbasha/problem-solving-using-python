@@ -46,9 +46,30 @@
 # rot = 1
 # print(a[rot:]+a[:rot])
 
-a = [1,2,3,0,5]
-n = len(a)
-for i in range(n+1):
-    if i not in a:
-        print(i)
-        break
+# a = [1,2,3,0,5]
+# n = len(a)
+# for i in range(n+1):
+#     if i not in a:
+#         print(i)
+#         break
+
+# a = [1,2,3,3,2,4,5,3,4,5,4]
+#out = [2,3]
+
+# b = set()
+# c = set()
+# for i in a :
+#     if i in b:
+#         c.add(i)
+#     else:
+#         b.add(i)
+# print(list(c))
+
+# a=[1,3,2,4,5,6]
+# tar = 11
+
+# for i in range(len(a)):
+#     for j in range(i+1,len(a)):
+#         if a[i]+a[j] == tar:
+#             print(i,j)
+#             break
