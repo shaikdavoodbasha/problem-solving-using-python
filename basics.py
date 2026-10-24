@@ -40,3 +40,15 @@
 # print(b+c)
 # b.extend(c)
 # print(b)
+
+# a = [1,2,3,4]
+# #out = [2,3,4,1]
+# rot = 1
+# print(a[rot:]+a[:rot])
+
+a = [1,2,3,0,5]
+n = len(a)
+for i in range(n+1):
+    if i not in a:
+        print(i)
+        break
