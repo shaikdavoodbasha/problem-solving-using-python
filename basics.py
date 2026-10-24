@@ -73,3 +73,72 @@
 #         if a[i]+a[j] == tar:
 #             print(i,j)
 #             break
+
+#strings
+# a= 'hellodavood'
+# print(a[::-1])
+# a = 'davoodbhaiooo'
+# vowels_count = 0
+# cons_count = 0
+# for i in a:
+#     if i in 'aeiosAEIOS':
+#         vowels_count = vowels_count + 1
+#     else:
+#         cons_count +=1
+# print("vowels_count",vowels_count)
+# print("cons_count",cons_count)
+
+#count words in string 
+
+# a = 'hello davood bhai how are you bro'
+# b = a.split()
+# print(len(b))
+
+
+# a = ['a','d','a','b','d','v','c','g']
+# fre = {}
+
+# for i in a:
+#     if i in fre:
+#         fre[i] +=1
+#     else:
+#         fre[i] = 1
+# print(fre)
+
+# a='davod bahi is god bhai'
+# print("".join(a.split()))
+
+# a = 'medamre'
+# b = 'damemer'
+# f=0
+# if (len(a) == len(b)):
+#     for i in a:
+#         if i not in b:
+#             f=1
+#             break
+#     if(f==1):
+#         print("Not anagram")
+#     else:
+#         print("Anagram")
+
+# else:
+#     print("Not anagram")
+
+# a = 'sjdhuejdalsjd'
+# b ={}
+# for i in a:
+#     b[i] = b.get(i,0)+1
+# print(b)
+
+# def duplitcate(n):
+#     a=set()
+#     for i in n:
+#         if i in a:
+#             return True
+#         a.add(i)
+#     return False
+
+# print(duplitcate([1,2,3,1]))
+# print(duplitcate([1,2,3,4]))
+
+    
