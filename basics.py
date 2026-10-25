@@ -138,7 +138,7 @@
 #         a.add(i)
 #     return False
 
-print(duplitcate([1,2,3,1]))
+# print(duplitcate([1,2,3,1]))
 # print(duplitcate([1,2,3,4]))
 
     
