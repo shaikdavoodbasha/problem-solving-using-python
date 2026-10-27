@@ -50,7 +50,7 @@ obj.insertAtEnd(30)
 obj.insertAtBeg(5)
 obj.insertInMid(10,20)
 obj.deleteLL(20)
-# obj.printLL()
+obj.printLL()
 
 
 
